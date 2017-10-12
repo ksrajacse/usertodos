@@ -4,9 +4,9 @@ import { User } from './user.model';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/toPromise';
 
-const BASE_URL = 'https://localhost:3000/users/';
+//const BASE_URL = 'https://localhost:3000/users/';
 
-//const BASE_URL = 'https://jsonplaceholder.typicode.com/users';
+const BASE_URL = 'https://jsonplaceholder.typicode.com/users';
 
 const HEADER = { headers: new Headers({ 'Content-Type': 'application/json' }) };
 
