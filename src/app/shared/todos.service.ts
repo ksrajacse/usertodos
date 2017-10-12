@@ -4,7 +4,7 @@ import { Todo } from './todo.model';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/toPromise';
 
-const BASE_URL = 'http://localhost:3000/todos/';
+const BASE_URL = 'https://localhost:3000/todos/';
 const HEADER = { headers: new Headers({ 'Content-Type': 'application/json' }) };
 
 @Injectable()

@@ -4,7 +4,7 @@ import { User } from './user.model';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/toPromise';
 
-const BASE_URL = 'http://localhost:3000/users/';
+const BASE_URL = 'https://localhost:3000/users/';
 
 //const BASE_URL = 'https://jsonplaceholder.typicode.com/users';
 
