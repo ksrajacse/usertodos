@@ -1,0 +1,11 @@
+<div class="mdl-grid users">
+  <div class="mdl-cell mdl-cell--12-col">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="mdl-cell mdl-cell--6-col">
+    <app-users-list [users]="users"
+                    (selected)="selectUser($event)">
+    </app-users-list>
+  </div>
+  
+</div>

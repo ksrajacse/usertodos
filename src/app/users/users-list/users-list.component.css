@@ -1,0 +1,8 @@
+.user-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.featured:not(.mdl-button--accent) {
+  color: lightgray;
+}
