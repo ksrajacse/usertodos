@@ -5,7 +5,7 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/toPromise';
 
 //const BASE_URL = 'https://localhost:3000/todos/';
-const BASE_URL = 'https://github.com/ksrajacse/usertodos/todos';
+const BASE_URL = 'https://github.com/ksrajacse/usertodos/assets/todos';
 const HEADER = { headers: new Headers({ 'Content-Type': 'application/json' }) };
 
 @Injectable()
