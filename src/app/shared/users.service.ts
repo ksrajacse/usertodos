@@ -6,7 +6,7 @@ import 'rxjs/add/operator/toPromise';
 
 //const BASE_URL = 'https://localhost:3000/users/';
 
-const BASE_URL = 'https://ksrajacse.github.io/usertodos/users';
+const BASE_URL = 'https://ksrajacse.github.io/usertodos/users.json';
 
 const HEADER = { headers: new Headers({ 'Content-Type': 'application/json' }) };
 
