@@ -6,7 +6,7 @@ import 'rxjs/add/operator/toPromise';
 
 //const BASE_URL = 'https://localhost:3000/users/';
 
-const BASE_URL = 'https://jsonplaceholder.typicode.com/users';
+const BASE_URL = 'https://github.com/ksrajacse/usertodos/users';
 
 const HEADER = { headers: new Headers({ 'Content-Type': 'application/json' }) };
 
